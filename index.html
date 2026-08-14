@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <meta charset="utf-8">
+
+    <script src="https://unpkg.com/trafimage-maps@latest/bundle.js"></script>
+
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:TaxKeywordTaxHTField msdt:dt="string">Leitstelle|a4043454-d964-479c-bbbe-f8e1d36c18ca;Einteilung|0050c60d-5e6e-4250-a744-016a79837d8e</mso:TaxKeywordTaxHTField>
+<mso:MCKnowledgeTag msdt:dt="string"></mso:MCKnowledgeTag>
+<mso:TaxKeyword msdt:dt="string">124;#Leitstelle|a4043454-d964-479c-bbbe-f8e1d36c18ca;#25;#Einteilung|0050c60d-5e6e-4250-a744-016a79837d8e</mso:TaxKeyword>
+<mso:MediaServiceImageTags msdt:dt="string"></mso:MediaServiceImageTags>
+<mso:b345f8f15d67493f8793f3553e4b6ac7 msdt:dt="string"></mso:b345f8f15d67493f8793f3553e4b6ac7>
+<mso:MCKnowledgeTag2 msdt:dt="string"></mso:MCKnowledgeTag2>
+<mso:lcf76f155ced4ddcb4097134ff3c332f msdt:dt="string"></mso:lcf76f155ced4ddcb4097134ff3c332f>
+<mso:TaxCatchAll msdt:dt="string">124;#Leitstelle|a4043454-d964-479c-bbbe-f8e1d36c18ca;#25;#Einteilung|0050c60d-5e6e-4250-a744-016a79837d8e</mso:TaxCatchAll>
+<mso:m4f154c464174ac5b58355c6d2b3e05a msdt:dt="string"></mso:m4f154c464174ac5b58355c6d2b3e05a>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+
+<div id="map">
+
+<trafimage-maps
+    apiKey="d962f16c09994f1e9b497fef171735af"
+    elements="permalink=false"
+    layersVisibility="
+        ch.sbb.puenktlichkeit-fv=true,
+        ch.sbb.puenktlichkeit-nv=true,
+        ch.sbb.puenktlichkeit-tram=true,
+        ch.sbb.puenktlichkeit-bus=true,
+        ch.sbb.puenktlichkeit-ferry=true,
+        ch.sbb.puenktlichkeit-funicular=true,
+        ch.sbb.puenktlichkeit-gondola=true">
+</trafimage-maps>
+
+</div>
+
+</body>
+</html>
